@@ -1,0 +1,60 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+h1{
+    text-align: center;
+}
+
+h2 {
+    color: orange;
+    padding-left: 5px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+#main {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.tom {}
+
+img {
+    border-radius: 15px;
+    height: 200px;
+    width: 350px;
+}
+
+.jerry {
+    padding: 10px;
+    width: 350px;
+    border: 1px solid;
+    box-shadow: 4px 6px 8px;
+    border-radius: 15px;
+}
+
+#gift {
+    width: 200px;
+    text-align: center;
+    padding: 5px;
+    color: tomato;
+    margin-top: 3%;
+    margin-left: 65%;
+    border: 2px solid;
+    border-radius: 10px;
+    background-color: aquamarine;
+}
+
+@media (min-width:300px) and (max-width: 700px) {
+    #main {
+        flex-wrap: wrap;
+        margin-left: 50px;
+    }
+
+    .jerry {
+        margin-top: 40px;
+    }
+
+}
